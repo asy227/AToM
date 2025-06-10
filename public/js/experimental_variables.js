@@ -48,7 +48,7 @@ var v1_q = [
     }, 
     {
         type: 'multiple-choice-image',
-        prompt: 'Now on the basis of this, if Jason goes to get his letter, where does Lisa think Jason will look for his letter?',
+        prompt: 'Based on what you heard, if Jason searches for his letter, where does Lisa think he will look?',
         options: [ 
             'images/v1_q1_o1.jpg',
             'images/v1_q1_o2.jpg',
