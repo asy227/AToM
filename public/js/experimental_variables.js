@@ -48,7 +48,7 @@ var v1_q = [
     }, 
     {
         type: 'multiple-choice-image',
-        prompt: 'Based on what you heard, if Jason searches for his letter, where does Lisa think he will look?',
+        prompt: 'Based on what you know, if Jason searches for his letter, where does Lisa think he will look?',
         options: [ 
             'images/v1_q1_o1.jpg',
             'images/v1_q1_o2.jpg',
@@ -183,7 +183,7 @@ var v4_q = [
     },
     {
         type: 'multiple-choice-image',
-        prompt: 'Where will the other army look for his tanks?',
+        prompt: 'Where will the Red army look for his tanks?',
         options: [
             'images/v4_q1_o1.png',
             'images/v4_q1_o2.png',
