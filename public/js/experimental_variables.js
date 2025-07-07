@@ -67,9 +67,9 @@ var v1 = {
 }
 
 var v2_text = [
-    "Okay, now this next story is about football. Johnny and Bob are best friends. They really enjoy playing football together. Johnny and Bob both want to play on the school football team. The school football team plays every Monday after school.",
-    "Johnny thinks that he is not as good at football as Bob is. He thinks that the football manager is more likely to choose Bob for the football team.",
-    "But the football manager thinks that both Johnny and Bob are good football players. He wants them both to play in the school football team. But the manager knows that Johnny doesn’t think he will get on the team."
+    "Okay, now this next story is about soccer. Johnny and Bob are best friends. They really enjoy playing soccer together. Johnny and Bob both want to play on the school football team. The school football team plays every Monday after school.",
+    "Johnny thinks that he is not as good at soccer as Bob is. He thinks that the soccer manager is more likely to choose Bob for the soccer team.",
+    "But the soccer manager thinks that both Johnny and Bob are good soccer players. He wants them both to play in the school soccer team. But the manager knows that Johnny doesn’t think he will get on the team."
 ]
 
 var v2_images = [
@@ -89,8 +89,8 @@ var v2_q = [
         type: 'multiple-choice',
         prompt: 'Which of the two statements do you think is right?',
         options: [
-            'The football team play on Fridays.',
-            'The football team play on Mondays.'
+            'The soccer team play on Fridays.',
+            'The soccer team play on Mondays.'
         ]
     },
     {
@@ -133,8 +133,8 @@ var v3_q = [
         type: 'multiple-choice',
         prompt: 'Which of the following statements is true?',
         options: [
-            'Mrs Brown asks Sarah and Joe to bring in something funny to watch.',
-            'Mrs Brown asks Sarah and Joe to bring in something scary to watch.'
+            'Mrs Brown asks Sarah and Joe to \nbring in something funny to watch.',
+            'Mrs Brown asks Sarah and Joe to \nbring in something scary to watch.'
         ]
     },
     {
