@@ -48,7 +48,7 @@ var v1_q = [
     }, 
     {
         type: 'multiple-choice-image',
-        prompt: 'Based on what you know, if Jason searches for his letter, where does Lisa think he will look?',
+        prompt: 'Based on this, if Jason goes to get his letter, where does Lisa think jason will look for his letter?',
         options: [ 
             'images/v1_q1_o1.jpg',
             'images/v1_q1_o2.jpg',
@@ -89,8 +89,8 @@ var v2_q = [
         type: 'multiple-choice',
         prompt: 'Which of the two statements do you think is right?',
         options: [
-            'The soccer team play on Fridays.',
-            'The soccer team play on Mondays.'
+            'The soccer team plays on Fridays.',
+            'The soccer team plays on Mondays.'
         ]
     },
     {
@@ -133,8 +133,8 @@ var v3_q = [
         type: 'multiple-choice',
         prompt: 'Which of the following statements is true?',
         options: [
-            'Mrs Brown asks Sarah and Joe to \nbring in something funny to watch.',
-            'Mrs Brown asks Sarah and Joe to \nbring in something scary to watch.'
+            'Miss Brown asks Sarah and Joe to \nbring in something funny to watch.',
+            'Miss Brown asks Sarah and Joe to \nbring in something scary to watch.'
         ]
     },
     {
@@ -183,7 +183,7 @@ var v4_q = [
     },
     {
         type: 'multiple-choice-image',
-        prompt: 'Where will the Red army look for his tanks?',
+        prompt: 'Where will the other army look for his tanks, in the mountains or by the sea?',
         options: [
             'images/v4_q1_o1.png',
             'images/v4_q1_o2.png',
@@ -230,7 +230,7 @@ var v5_q = [
     },
     {
         type: 'audio-input',
-        prompt: 'Why did Mrs. Smith say this to Jane?'
+        prompt: 'Why did Mrs. Smith say this to Jill?'
     },
     {
         type: 'audio-input-goodbye',
@@ -246,21 +246,21 @@ var v5 = {
 var rmie_q = [
     {
         type: 'image-button',
-        prompt: 'What emotion is being displayed here?',
+        prompt: 'How does this person feel?',
         stimulus: 'images/rmie_p1.png',
-        options: ['serious','ashamed','bewildered','alarmed']
+        options: ['serious','ashamed','confused','alarmed']
     },
     {
         type: 'image-button',
-        prompt: 'What emotion is being displayed here?',
+        prompt: 'How does this person feel?',
         stimulus: 'images/rmie_p2.png',
-        options: ['panicked','incredulous','despondent','interested']
+        options: ['panicked','doubtful','discouraged','alarmed']
     },
     {
         type: 'image-button',
-        prompt: 'What emotion is being displayed here?',
+        prompt: 'How does this person feel?',
         stimulus: 'images/rmie_p3.png',
-        options: ['apologetic','friendly','uneasy','dispirited']
+        options: ['sorry','friendly','uneasy','disappointed']
     }
 ]
 
