@@ -133,8 +133,8 @@ var v3_q = [
         type: 'multiple-choice',
         prompt: 'Which of the following statements is true?',
         options: [
-            'Miss Brown asks Sarah and Joe to \n\nbring in something funny to watch.',
-            'Miss Brown asks Sarah and Joe to \n\nbring in something scary to watch.'
+            'Miss Brown asks Sarah and Joe to <br>bring in something funny to watch.',
+            'Miss Brown asks Sarah and Joe to <br>bring in something scary to watch.'
         ]
     },
     {
