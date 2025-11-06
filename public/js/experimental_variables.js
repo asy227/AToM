@@ -248,19 +248,19 @@ var rmie_q = [
         type: 'image-button',
         prompt: 'How does this person feel?',
         stimulus: 'images/rmie_p1.png',
-        options: ['serious','ashamed','confused','alarmed']
+        options: ['serious','ashamed','confused','scared']
     },
     {
         type: 'image-button',
         prompt: 'How does this person feel?',
         stimulus: 'images/rmie_p2.png',
-        options: ['panicked','doubtful','discouraged','alarmed']
+        options: ['nervous','unsure','sad','interested']
     },
     {
         type: 'image-button',
         prompt: 'How does this person feel?',
         stimulus: 'images/rmie_p3.png',
-        options: ['sorry','friendly','uneasy','disappointed']
+        options: ['sorry','friendly','worried','disappointed']
     }
 ]
 
